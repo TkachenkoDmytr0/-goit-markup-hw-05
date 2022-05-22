@@ -729,6 +729,33 @@ img {
 
 .projects-link {
     display: block;
+    position: relative;
+
+
+
+}
+
+.projects-images::before {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.projects-modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 370px;
+    height: 294px;
+    padding: 63px 24px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #FFFFFF;
+    background-color: rgba(33, 150, 243, 0.9);
+
 }
 
 .projects-link:hover,
