@@ -408,17 +408,7 @@ img {
 
 }
 
-.work-text-box {
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(47, 48, 58, 0.8);
-}
+
 
 .work-text {
     position: absolute;
@@ -426,10 +416,15 @@ img {
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
-    display: block;
     color: var(--background-cl-body);
-
-
+    background-color: rgba(47, 48, 58, 0.8);
+    left: 0%;
+    bottom: 0%;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*
