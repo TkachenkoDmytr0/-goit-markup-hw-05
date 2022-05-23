@@ -415,8 +415,6 @@ img {
     height: 70px;
     width: 100%;
     display: flex;
-    flex-grow: unset;
-
     justify-content: center;
     align-items: center;
     background-color: rgba(47, 48, 58, 0.8);
